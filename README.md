@@ -158,6 +158,9 @@ yarn dev
 
 ### Executar Testes
 ```bash
+# Entrar na pasta frontend
+cd frontend
+
 # Executar todos os testes
 yarn test
 
