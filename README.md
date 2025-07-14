@@ -105,10 +105,7 @@ O sistema utiliza um algoritmo inteligente que:
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/sistema-recomendacao.git
-
-# Entre no diretório
-cd sistema-recomendacao
+git clone https://github.com/PedroHConrado/product-recommender.git
 
 # Execute o script de instalação
 ./install.sh
@@ -171,92 +168,15 @@ yarn test:coverage
 yarn test -- --testNamePattern="Form"
 ```
 
-## 🎨 Recursos Visuais
-
-### Interface Moderna
-- **Design System**: Componentes consistentes e reutilizáveis
-- **Tailwind CSS**: Classes utilitárias para estilização rápida
-- **Responsividade**: Adaptável para desktop, tablet e mobile
-
-### Efeitos Visuais
-- **Cards 3D**: Efeitos hover com transformações suaves
-- **Animações**: Transições fluidas entre estados
-- **Scroll Automático**: Navegação intuitiva para resultados
-- **Loading States**: Feedback visual durante carregamento
-
-## 🔧 Arquitetura Técnica
-
-### Padrões Utilizados
-- **Custom Hooks**: Lógica reutilizável e testável
-- **Service Layer**: Separação de responsabilidades
-- **Component Composition**: Componentes modulares
-- **Props Drilling**: Fluxo de dados controlado
-
-### Estrutura de Dados
-```javascript
-// Exemplo de produto
-{
-  id: 1,
-  name: "RD Station Marketing",
-  preferences: ["Aumentar vendas", "Gerar leads"],
-  features: ["Email Marketing", "Landing Pages"],
-  description: "Plataforma completa de marketing digital",
-  benefits: ["Automação", "Segmentação", "Analytics"]
-}
-```
-
-## 🚀 Funcionalidades Implementadas
-
-### ✅ Concluído
-- [x] Sistema de recomendação com algoritmo de scoring
-- [x] Interface de usuário responsiva e moderna
-- [x] Formulário de seleção de preferências
-- [x] Exibição de resultados com efeitos visuais
-- [x] Scroll automático para resultados
-- [x] Testes unitários abrangentes
-- [x] Integração com API REST (json-server)
-- [x] Tratamento de erros e estados de loading
-
-### 🔄 Possíveis Melhorias Futuras
-- [ ] Implementação de filtros avançados
-- [ ] Sistema de favoritos
-- [ ] Comparação entre produtos
-- [ ] Histórico de recomendações
-- [ ] Integração com APIs externas
-- [ ] Modo escuro/claro
-- [ ] Internacionalização (i18n)
-
-## 📈 Performance e Otimizações
-
-- **Lazy Loading**: Carregamento otimizado de componentes
-- **Memoização**: Prevenção de re-renderizações desnecessárias
-- **Bundle Splitting**: Divisão do código para carregamento eficiente
-- **Caching**: Armazenamento inteligente de dados
-
-## 🤝 Contribuindo
-
-Contribuições são bem-vindas! Por favor, siga estas diretrizes:
-
-1. **Fork** o projeto
-2. **Crie** uma branch para sua feature (`git checkout -b feature/nova-funcionalidade`)
-3. **Commit** suas mudanças (`git commit -m 'Adiciona nova funcionalidade'`)
-4. **Push** para a branch (`git push origin feature/nova-funcionalidade`)
-5. **Abra** um Pull Request
-
 ## 📝 Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ## 👤 Autor
 
-**Desenvolvido com ❤️ por [Seu Nome]**
+**Desenvolvido com ❤️ por Pedro Conrado**
 
-- GitHub: [@seu-usuario](https://github.com/seu-usuario)
-- LinkedIn: [Seu Nome](https://linkedin.com/in/seu-nome)
-- Email: seu.email@exemplo.com
+- GitHub: [@PedroHConrado](https://github.com/PedroHConrado)
+- LinkedIn: [Pedro Conrado](https://linkedin.com/in/pedrohconrado)
+- Email: conradohpedro@gmail.com
 
----
-
-<div align="center">
-  <strong>⭐ Se este projeto foi útil para você, considere dar uma estrela! ⭐</strong>
-</div>
