@@ -1,0 +1,88 @@
+const mockProducts = [
+  {
+    "id": 1,
+    "name": "RD Station CRM",
+    "category": "Vendas",
+    "description": "Organize seu funil de vendas, automatize seu processo comercial e foque nas oportunidades certas.",
+    "benefits": [
+      "Personalize funis de vendas",
+      "Faça gestão de diferentes equipes",
+      "Negocie direto pelo Whatsapp"
+    ],
+    "preferences": [
+      "Integração fácil com ferramentas de e-mail",
+      "Personalização de funis de vendas",
+      "Relatórios avançados de desempenho de vendas"
+    ],
+    "features": [
+      "Gestão de leads e oportunidades",
+      "Automação de fluxos de trabalho de vendas",
+      "Rastreamento de interações com clientes"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "RD Station Marketing",
+    "category": "Marketing",
+    "description": "Alcance mais pessoas, identifique as melhores oportunidades e comprove seus resultados com automação de marketing.",
+    "benefits": [
+      "Atraia leads mais propensos a comprar",
+      "Crie campanhas que realmente convertem",
+      "Analise resultados com mais facilidade"
+    ],
+    "preferences": [
+      "Automação de marketing",
+      "Testes A/B para otimização de campanhas",
+      "Segmentação avançada de leads"
+    ],
+    "features": [
+      "Criação e gestão de campanhas de e-mail",
+      "Rastreamento de comportamento do usuário",
+      "Análise de retorno sobre investimento (ROI) de campanhas"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "RD Conversas",
+    "category": "Omnichannel",
+    "description": "Centralize seu processo de atendimento, integre canais e gere conversas que vendem.",
+    "benefits": [
+      "Diminua o tempo de espera",
+      "Melhore a experiência do cliente",
+      "Qualifique melhor suas conversões"
+    ],
+    "preferences": [
+      "Integração com chatbots",
+      "Histórico unificado de interações",
+      "Respostas automáticas e personalizadas"
+    ],
+    "features": [
+      "Gestão de conversas em diferentes canais",
+      "Chat ao vivo e mensagens automatizadas",
+      "Integração com RD Station CRM e Marketing"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "RD Mentor AI",
+    "category": "Uso de Inteligência Artificial",
+    "description": "Potencialize suas estratégias com inteligência artificial e análise preditiva para decisões mais assertivas.",
+    "benefits": [
+      "Obtenha insights estratégicos baseados em dados",
+      "Receba recomendações personalizadas",
+      "Otimize resultados com IA"
+    ],
+    "preferences": [
+      "Análise preditiva de dados",
+      "Recomendações personalizadas para usuários",
+      "Integração com assistentes virtuais"
+    ],
+    "features": [
+      "Análise de dados para insights estratégicos",
+      "Recomendação de ações com base em padrões",
+      "Integração de funcionalidades preditivas nos produtos RD Station"
+    ]
+  }
+];
+
+export default mockProducts;
